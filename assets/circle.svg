@@ -9,6 +9,9 @@
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="drawing.svg"
+   inkscape:export-filename="circle.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +28,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74653479"
-     inkscape:cx="8.0371338"
+     inkscape:cx="-30.809013"
      inkscape:cy="228.38855"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
@@ -41,14 +44,14 @@
      id="layer1"
      transform="translate(-44.169623,-74.29492)">
     <circle
-       style="fill:#a8ffda;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583;stroke-opacity:0.5"
+       style="fill:#388262;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583;stroke-opacity:0.5"
        id="path5256"
        cx="97.464203"
        cy="127.5895"
        r="53.162289" />
     <path
        id="path5366"
-       style="fill:#db6868;fill-opacity:1;stroke:#ffffff;stroke-width:0.20734;stroke-opacity:0.5"
+       style="fill:#732f2f;fill-opacity:1;stroke:#ffffff;stroke-width:0.20734;stroke-opacity:0.5"
        d="m 97.464335,74.426982 a 53.162289,53.162289 0 0 0 -21.075716,4.39663 56.203445,58.329937 0 0 0 -1.635559,13.856002 56.203445,58.329937 0 0 0 56.20329,58.329776 56.203445,58.329937 0 0 0 15.21819,-2.2164 53.162289,53.162289 0 0 0 4.45192,-21.20336 53.162289,53.162289 0 0 0 -53.162125,-53.162648 z" />
   </g>
 </svg>
