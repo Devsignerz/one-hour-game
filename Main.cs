@@ -3,10 +3,12 @@ using System;
 
 public partial class Main : Node{
 	int i;
+	int increament;
 	[Export] Label lbl;
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready(){
-		i=0;
+		i = 0;
+		increament = 1;
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -14,6 +16,6 @@ public partial class Main : Node{
 		lbl.Text = i.ToString();
 	}
 	public void Click(){
-		i++;
+		i+=increament;
 	}
 }
