@@ -1,14 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://pt7c83k7m2lr"]
+[gd_scene load_steps=3 format=3 uid="uid://pt7c83k7m2lr"]
 
 [ext_resource type="Script" path="res://Main.cs" id="1_wq27c"]
-[ext_resource type="Texture2D" uid="uid://5d6gki6tax2t" path="res://assets/circle.svg" id="2_4jfap"]
-
-[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7m5ff"]
-texture = ExtResource("2_4jfap")
+[ext_resource type="StyleBox" uid="uid://cs5gm8wfkyphc" path="res://assets/main.stylebox" id="2_umgah"]
 
 [node name="Main" type="Node" node_paths=PackedStringArray("lbl")]
 script = ExtResource("1_wq27c")
-lbl = NodePath("")
+lbl = NodePath("Button")
 
 [node name="Button" type="Button" parent="."]
 anchors_preset = 8
@@ -24,4 +21,9 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
-theme_override_styles/normal = SubResource("StyleBoxTexture_7m5ff")
+theme_override_styles/normal = ExtResource("2_umgah")
+theme_override_styles/hover = ExtResource("2_umgah")
+theme_override_styles/pressed = ExtResource("2_umgah")
+action_mode = 0
+
+[connection signal="pressed" from="Button" to="." method="Click"]

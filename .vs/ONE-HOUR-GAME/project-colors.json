@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1799c668-b0ab-4bf1-96d0-af5e88243652": {
+      "ProjectGuid": "1799c668-b0ab-4bf1-96d0-af5e88243652",
+      "DisplayName": "one-hour-game",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
